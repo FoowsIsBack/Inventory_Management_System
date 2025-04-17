@@ -1,6 +1,6 @@
 body{
     font-family: Arial, sans-serif;
-    background-color: burlywood;
+    background-color: wheat;
     margin: 40px;
 }
 
@@ -8,18 +8,22 @@ h1{
     text-align: center;
 }
 
+.title{
+    padding-bottom: 20px;
+}
+
 form input, form button {
     padding: 8px;
     margin: 5px;
 }
 
-.info{
-    padding-top: 20px;
-}
-
 input{
     border: 1px solid black;
     border-radius: 5px;
+}
+
+form{
+    text-align: center;
 }
 
 table{
@@ -33,6 +37,7 @@ button{
     border-radius: 5px;
     cursor: pointer;
     width: 150px;
+    font-weight: bold;
 }
 
 button:hover{
@@ -40,6 +45,16 @@ button:hover{
     color: white;
 }
 
+.back{
+    text-align: center;
+    padding-top: 1%;
+    font-size: larger;
+}
+
+.backers{
+    width: 200px;
+    padding: 5px;
+}
 
 input{
     font-size: larger;
@@ -49,14 +64,28 @@ th{
     padding: 10px;
     border: 2px solid black;
     text-align: center;
-    background-color: rgb(56, 148, 56);
     border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.813);
 }
 
 td{
     padding: 10px;
     border: 2px solid black;
     text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.setting{
+    text-decoration: none;
+}
+
+.setting:hover{
+    text-decoration: underline;
+}
+
+tr:hover{
+    background-color: rgb(55, 195, 55);
 }
 
 a{
