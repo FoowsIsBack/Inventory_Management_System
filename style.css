@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: burlywood;
+    margin: 40px;
+}
+
+h1{
+    text-align: center;
+}
+
+form input, form button {
+    padding: 8px;
+    margin: 5px;
+}
+
+.info{
+    padding-top: 20px;
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+button{
+    font-size: larger;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+}
+
+button:hover{
+    background-color: red;
+    color: white;
+}
+
+
+input{
+    font-size: larger;
+}
+
+th{
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgb(56, 148, 56);
+    border-radius: 5px;
+}
+
+td{
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+a{
+    color: blue;
+    margin: 0 5px;
+}
