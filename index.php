@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Inventory Management</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon/icon.png" type="image/x-icon">
 </head>
 <body>
     <div class="title">
