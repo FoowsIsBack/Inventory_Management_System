@@ -50,6 +50,10 @@ button:hover{
     color: white;
 }
 
+button[class="tolist"]:hover{
+    background-color: rgb(75, 188, 75);
+}
+
 .back{
     text-align: center;
     padding-top: 1%;
