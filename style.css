@@ -12,7 +12,12 @@ h1{
     padding-bottom: 20px;
 }
 
-form input, form button {
+form input{
+    padding: 8px;
+    margin: 5px;
+}
+
+form button {
     padding: 8px;
     margin: 5px;
 }
@@ -30,6 +35,14 @@ table{
     width: 100%;
     border-collapse: collapse;
     background: white;
+}
+
+video{
+    position: fixed;
+    right: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 button{
@@ -65,7 +78,7 @@ th{
     border: 2px solid black;
     text-align: center;
     border-radius: 5px;
-    background-color: rgba(128, 128, 128, 0.813);
+    background-color: rgba(128, 128, 128, 0.651);
 }
 
 td{
@@ -85,7 +98,7 @@ td{
 }
 
 tr:hover{
-    background-color: rgb(55, 195, 55);
+    background-color: rgb(75, 188, 75);
 }
 
 a{
