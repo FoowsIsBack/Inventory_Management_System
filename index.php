@@ -14,10 +14,10 @@
 
     <form action="add.php" method="post">
         <input type="text" name="item_name" placeholder="Item Name" required>
-        <input type="text" name="quantity" placeholder="Quantity" required>
-        <input type="text" name="price" placeholder="Price" required>
+        <input type="number" name="quantity" placeholder="Quantity" required>
+        <input type="number" name="price" placeholder="Price" required>
         <button type="submit">Add Item</button>
-        <button class="tolist" onclick="window.location.href='list.php'">Back</button>
+        <button class="tolist" type="button" onclick="window.location.href='list.php'">Item List</button>
     </form>
 
     <?php include 'inventory_table.php'; ?>
