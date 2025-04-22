@@ -37,14 +37,6 @@ table{
     background: white;
 }
 
-video{
-    position: fixed;
-    right: 0;
-    top: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
-
 button{
     font-size: larger;
     border-radius: 5px;
