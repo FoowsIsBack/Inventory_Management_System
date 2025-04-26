@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Inventory Management</title>
+    <link rel="shortcut icon" href="icon/icon.png" type="image/x-icon">
+    <title>Inventory Management System</title>
 </head>
 <body>
     <div class="title">
-    <h1>Inventory Management</h1>
+    <h1>INVENTORY MANAGEMENT SYSTEM</h1>
     </div>
 
 <?php
@@ -31,14 +32,30 @@ $result = $conn->query("SELECT * FROM inventory WHERE id=$id");
 $item = $result->fetch_assoc();
 ?>
 
-    <div class="updaters">
-        <form method="post">
-            <input type="hidden" name="id" value="<?= $item['id'] ?>">
-            <input type="text" name="item_name" value="<?= $item['item_name'] ?>" required>
-            <input type="text" name="quantity" value="<?= $item['quantity'] ?>" required>
-            <input type="text" name="price" value="<?= $item['price'] ?>" required>
-            <button type="submit" name="update">Update</button>
-        </form>
+    <div class="ui">
+        <div class="main">
+            <form method="post">
+                <input type="hidden" name="id" value="<?= $item['id'] ?>">
+
+                <div class="itemName">
+                    <label for="">ITEM:</label>
+                    <input type="text" name="item_name" value="<?= $item['item_name'] ?>" required>
+                </div>
+                
+                <div class="quantity">
+                    <label for="">QUANTITY:</label>
+                    <input type="text" name="quantity" value="<?= $item['quantity'] ?>" required>
+                </div>
+
+                <div class="price">
+                    <label for="">PRICE:</label>
+                    <input type="text" name="price" value="<?= $item['price'] ?>" required>
+                </div>
+                <div class="clickers">
+                    <button class="tolist" type="submit" name="update">Update</button>
+                </div>
+            </form>
+        </div>
     </div>
 
 </body>
