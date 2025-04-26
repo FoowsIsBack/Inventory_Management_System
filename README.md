@@ -1,6 +1,2 @@
-# folder
-![image](https://github.com/user-attachments/assets/0ba89dfe-d916-46f4-9d52-aff130fea850)
-
-```sh
-inventory-crud
-```
+# UI
+![image](https://github.com/user-attachments/assets/a881b0be-293c-481a-95a0-37db9bcd6b2e)
