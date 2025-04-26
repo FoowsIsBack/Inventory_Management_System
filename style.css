@@ -1,14 +1,51 @@
 body{
     font-family: Arial, sans-serif;
-    background-color: wheat;
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
     margin: 40px;
+    justify-items: center;
 }
 
 h1{
     text-align: center;
 }
 
-.title{
+label{
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.ui{
+    background-color: rgba(255, 255, 255, 0.776);
+    padding: 10px;
+    width: 45%;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 1px 4px 27px 4px rgba(0,0,0,0.69);
+}
+
+.quantity{
+    padding-top: 2%;
+}
+
+.itemName{
+    padding-top: 2%;
+}
+
+.price{
+    padding-top: 2%;
+}
+
+.main{
+    justify-items: left;
+    padding-left: 25%;
+}
+
+.clickers{
+    text-align: center;
+    padding-left: 50p   x;
+}
+
+.title{ 
     padding-bottom: 20px;
 }
 
@@ -17,24 +54,32 @@ form input{
     margin: 5px;
 }
 
-form button {
+form button{
     padding: 8px;
     margin: 5px;
 }
 
 input{
+    outline: none;
     border: 1px solid black;
     border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.776);
+}
+
+input:focus{
+    border: 1px solid black;
+}
+
+.clickers{
+    padding-top: 3%;
 }
 
 form{
     text-align: center;
 }
 
-table{
-    width: 100%;
-    border-collapse: collapse;
-    background: white;
+.info{
+    justify-items: center;
 }
 
 button{
@@ -45,12 +90,20 @@ button{
     font-weight: bold;
 }
 
+button[type="submit"]{
+    background-color: skyblue;
+}
+
 button:hover{
     background-color: red;
     color: white;
 }
 
 button[class="tolist"]:hover{
+    background-color: rgb(75, 188, 75);
+}
+
+button[class="tolist"]{
     background-color: rgb(75, 188, 75);
 }
 
@@ -69,12 +122,23 @@ input{
     font-size: larger;
 }
 
+table{
+    width: 200%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 1px 4px 27px 4px rgba(0,0,0,0.69);
+}
+
 th{
     padding: 10px;
     border: 2px solid black;
     text-align: center;
-    border-radius: 5px;
     background-color: rgba(128, 128, 128, 0.651);
+}
+
+.classTH:hover{
+    background-color: rgba(128, 128, 128, 0.651);
+    color: black;
 }
 
 td{
@@ -85,6 +149,19 @@ td{
     font-weight: bold;
 }
 
+table{
+    background-color: rgba(255, 255, 255, 0.776);
+}
+
+tr{
+    border-radius: 10px;
+}
+
+tr:hover{
+    background-color: rgb(75, 188, 75);
+    color: white;
+}
+
 .setting{
     text-decoration: none;
 }
@@ -93,9 +170,8 @@ td{
     text-decoration: underline;
 }
 
-tr:hover{
-    background-color: rgb(75, 188, 75);
-    color: white;
+#del{
+    color: red;
 }
 
 a{
