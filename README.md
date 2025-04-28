@@ -1,5 +1,5 @@
 # UI
-![image](https://github.com/user-attachments/assets/9765af4a-c987-4067-851d-b3a2d57c5426)
+![image](https://github.com/user-attachments/assets/c7e29e01-5f9e-45f7-9066-eda75e1c8e77)
 
 # SQL Table
 ```sql
