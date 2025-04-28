@@ -42,6 +42,9 @@
                         <button type="submit">Add Item</button>
                         <button class="tolist" type="button" onclick="window.location.href='list.php'">Item List</button>
                     </div>
+                    <div class="dev">
+                        <a class="setting" href="https://github.com/FoowsIsBack">Developer</a>
+                    </div>
             </div>
         </form>
     </div>
