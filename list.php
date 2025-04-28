@@ -18,6 +18,7 @@
             <tr class="classTH">
                 <th>ID</th>
                 <th>NAME</th>
+                <th>PICTURE</th>
                 <th>GENDER</th>
                 <th>ITEM</th>
                 <th>QTY</th>
@@ -33,13 +34,16 @@
             <tr>
                 <td><?= $row['id'] ?></td>
                 <td><?= ucwords($row['user_info']) ?></td>
+                <td>
+                    <img src="uploads/<?= htmlspecialchars($row['profile_pic']) ?>" class="pic">
+                </td>
                 <td><?= ucwords($row['gender']) ?></td>
                 <td><?= ucwords($row['item_name']) ?></td>
                 <td><?= $row['quantity'] ?></td>
                 <td>₱ <?= $row['price'] ?></td>
                 <td>
                     <a class="setting" href="update.php?id=<?= $row['id'] ?>">Edit</a>
-                    <a class="setting" id="del" href="delete.php?id=<?= $row['id'] ?>" onclick="confirm('Delete this item?')">Delete</a>
+                    <a class="setting" id="del" href="delete.php?id=<?= $row['id'] ?>" onclick="return confirm('Delete this item?')">Delete</a>
                 </td>
             </tr>
             <?php endwhile; ?>
