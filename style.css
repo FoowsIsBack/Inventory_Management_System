@@ -29,18 +29,15 @@ h2{
     padding-bottom: 20px;
 }
 
-form input{
-    padding: 8px;
-    margin: 5px;
-    font-size: larger;
-}
-
 input{
     font-size: larger;
     outline: none;
     border: 1px solid black;
     border-radius: 5px;
     width: 95%;
+    padding: 8px;
+    margin: 5px;
+    font-size: larger;
 }
 
 input[type="radio"]{
