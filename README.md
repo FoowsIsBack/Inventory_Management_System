@@ -16,7 +16,7 @@ NOTE: The profile picture can't be changed yet because it is still under develop
 ```sql
 CREATE TABLE inventory (
     id INT AUTO_INCREMENT PRIMARY KEY,
-	profile_pic VARCHAR(255),
+    profile_pic VARCHAR(255),
     user_info VARCHAR(255),
     gender VARCHAR(10),
     item_name VARCHAR(255),
