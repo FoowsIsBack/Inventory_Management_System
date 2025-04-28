@@ -19,6 +19,13 @@
                     <h2>NAME:</h2>
                     <input type="text" name="user_info" placeholder="Ex. Dave" required>
 
+                    <h2>GENDER:</h2>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <br>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+
                     <h2>ITEM:</h2>
                     <input type="text" name="item_name" placeholder="Ex. Paper" required>
 
@@ -27,6 +34,9 @@
 
                     <h2>PRICE:</h2>
                     <input type="number" name="price" placeholder="Ex. 150" required>
+
+                    <h2>PROFILE PIC:</h2>
+                    <input type="file" name="profile_pic" id="file">
 
                     <div class="clickers">
                         <button type="submit">Add Item</button>
