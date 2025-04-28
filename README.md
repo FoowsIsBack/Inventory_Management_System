@@ -1,2 +1,2 @@
 # UI
-![image](https://github.com/user-attachments/assets/a881b0be-293c-481a-95a0-37db9bcd6b2e)
+![image](https://github.com/user-attachments/assets/9765af4a-c987-4067-851d-b3a2d57c5426)
