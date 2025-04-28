@@ -16,30 +16,22 @@
     <div class="ui">
         <form action="add.php" method="post">
             <div class="main">
-                <div class="info">
-                    <label for="user">NAME:</label>
-                    <input type="text" name="user_info" placeholder="Name" required>
-                </div>
+                    <h2>NAME:</h2>
+                    <input type="text" name="user_info" placeholder="Ex. Dave" required>
 
-                <div class="itemName">
-                    <label for="item_name">ITEM:</label>
-                    <input type="text" name="item_name" placeholder="Item" required>
-                </div>
+                    <h2>ITEM:</h2>
+                    <input type="text" name="item_name" placeholder="Ex. Paper" required>
 
-                <div class="quantity">
-                    <label for="">QUANTITY:</label>
-                    <input type="number" name="quantity" placeholder="Quantity" required>
-                </div>                                                       
+                    <h2>QUANTITY:</h2>  
+                    <input type="number" name="quantity" placeholder="Ex. 1 or more" required>
 
-                <div class="price">
-                    <label for="">PRICE:</label>
-                    <input type="number" name="price" placeholder="Price" required>
-                </div>
+                    <h2>PRICE:</h2>
+                    <input type="number" name="price" placeholder="Ex. 150" required>
 
-                <div class="clickers">
-                    <button type="submit">Add Item</button>
-                    <button class="tolist" type="button" onclick="window.location.href='list.php'">Item List</button>
-                </div>
+                    <div class="clickers">
+                        <button type="submit">Add Item</button>
+                        <button class="tolist" type="button" onclick="window.location.href='list.php'">Item List</button>
+                    </div>
             </div>
         </form>
     </div>
