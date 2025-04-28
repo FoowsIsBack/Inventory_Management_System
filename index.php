@@ -14,7 +14,7 @@
     </div>
 
     <div class="ui">
-        <form action="add.php" method="post">
+        <form action="add.php" method="post" enctype="multipart/form-data">
             <div class="main">
                     <h2>NAME:</h2>
                     <input type="text" name="user_info" placeholder="Ex. Dave" required>
@@ -36,14 +36,14 @@
                     <input type="number" name="price" placeholder="Ex. 150" required>
 
                     <h2>PROFILE PIC:</h2>
-                    <input type="file" name="profile_pic" id="file">
+                    <input type="file" name="profile_pic" id="file" accept="uploads/*" required>
 
                     <div class="clickers">
                         <button type="submit">Add Item</button>
                         <button class="tolist" type="button" onclick="window.location.href='list.php'">Item List</button>
                     </div>
                     <div class="dev">
-                        <a class="setting" href="https://github.com/FoowsIsBack">Developer</a>
+                        <a class="setting" href="https://www.facebook.com/jhinbangcoyo">Developer</a>
                     </div>
             </div>
         </form>
