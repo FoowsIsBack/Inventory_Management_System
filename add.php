@@ -1,16 +1,30 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
 include 'db.php';
 
-$info = ucwords($_POST['user_info']);
-$gender = ucwords($_POST['gender']);
-$name = ucwords($_POST['item_name']);
-$qty = $_POST['quantity'];
-$price = $_POST['price'];
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $info = ucwords($_POST['user_info']);
+    $gender = ucwords($_POST['gender']);
+    $name = ucwords($_POST['item_name']);
+    $qty = $_POST['quantity'];
+    $price = $_POST['price'];
+    $profile = '';
 
-$conn->query("INSERT INTO inventory (user_info, gender, item_name, quantity, price) VALUES ('$info', '$gender', '$name', '$qty', '$price')");
+    if (isset($_FILES['profile_pic']) && $_FILES['profile_pic']['error'] === 0) {
+        $profile = time() . '_' . basename($_FILES['profile_pic']['name']);
+        $upload_path = 'uploads/' . $profile;
 
-header("Location: index.php");
+        if (!is_dir('uploads')) {
+            mkdir('uploads', 0777, true);
+        }
+
+        if (move_uploaded_file($_FILES['profile_pic']['tmp_name'], $upload_path)) {
+            $conn->query("INSERT INTO inventory (user_info, profile_pic, gender, item_name, quantity, price) 
+                          VALUES ('$info', '$profile', '$gender', '$name', '$qty', '$price')");
+            header("Location: index.php");
+            exit();
+        } else {
+            echo "Failed to upload image.";
+        }
+    }
+}
 ?>
