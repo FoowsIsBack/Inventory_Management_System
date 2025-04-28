@@ -38,21 +38,22 @@ $item = $result->fetch_assoc();
                 <input type="hidden" name="id" value="<?= $item['id'] ?>">
 
                 <div class="itemName">
-                    <label for="">ITEM:</label>
+                    <h2>ITEM:</h2>
                     <input type="text" name="item_name" value="<?= $item['item_name'] ?>" required>
                 </div>
                 
                 <div class="quantity">
-                    <label for="">QUANTITY:</label>
+                    <h2>QUANTITY:</h2>
                     <input type="text" name="quantity" value="<?= $item['quantity'] ?>" required>
                 </div>
 
                 <div class="price">
-                    <label for="">PRICE:</label>
+                    <h2>PRICE:</h2>
                     <input type="text" name="price" value="<?= $item['price'] ?>" required>
                 </div>
                 <div class="clickers">
                     <button class="tolist" type="submit" name="update">Update</button>
+                    <button class="tolist" type="button" id="back" onclick="window.location.href='list.php'">Back</button>
                 </div>
             </form>
         </div>
