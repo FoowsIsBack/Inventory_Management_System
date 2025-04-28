@@ -9,40 +9,20 @@ h1{
     text-align: center;
 }
 
-label{
-    font-weight: bold;
-    font-size: 120%;
+h2{
+    text-align: left;
 }
 
 .ui{
     background-color: rgba(255, 255, 255, 0.776);
-    padding: 10px;
-    width: 45%;
-    padding: 2%;
+    width: 30%;
+    padding: 1%;
     border-radius: 15px;
     box-shadow: 1px 4px 27px 4px rgba(0,0,0,0.69);
 }
 
-.quantity{
-    padding-top: 2%;
-}
-
-.itemName{
-    padding-top: 2%;
-}
-
-.price{
-    padding-top: 2%;
-}
-
-.main{
-    justify-items: left;
-    padding-left: 25%;
-}
-
 .clickers{
-    text-align: center;
-    padding-left: 50p   x;
+    padding-left: 50px;
 }
 
 .title{ 
@@ -52,18 +32,17 @@ label{
 form input{
     padding: 8px;
     margin: 5px;
-}
-
-form button{
-    padding: 8px;
-    margin: 5px;
+    font-size: larger;
 }
 
 input{
+    font-size: larger;
     outline: none;
     border: 1px solid black;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.776);
+    width: 95%;
+    text-align: left;
 }
 
 input:focus{
@@ -72,10 +51,8 @@ input:focus{
 
 .clickers{
     padding-top: 3%;
-}
-
-form{
-    text-align: center;
+    display: flex;
+    gap: 30%;
 }
 
 .info{
@@ -88,23 +65,23 @@ button{
     cursor: pointer;
     width: 150px;
     font-weight: bold;
+    padding: 8px;
 }
 
 button[type="submit"]{
-    background-color: skyblue;
+    background-color: rgb(0, 183, 255);
 }
 
 button:hover{
-    background-color: red;
-    color: white;
-}
-
-button[class="tolist"]:hover{
-    background-color: rgb(75, 188, 75);
+    background-color: rgb(3, 133, 185);
 }
 
 button[class="tolist"]{
     background-color: rgb(75, 188, 75);
+}
+
+button[class="tolist"]:hover{
+    background-color: rgb(51, 146, 51);
 }
 
 .back{
@@ -114,6 +91,7 @@ button[class="tolist"]{
 }
 
 .backers{
+    background-color: rgb(0, 183, 255);
     width: 200px;
     padding: 5px;
 }
