@@ -9,6 +9,8 @@
 ```sh
 NOTE: The profile picture can't be changed yet because it is still under development.
 ```
+# Database
+![image](https://github.com/user-attachments/assets/c04e71ee-c1e5-483a-933a-f19a90994fd7)
 
 # SQL Table
 ```sql
