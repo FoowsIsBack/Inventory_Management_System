@@ -17,6 +17,8 @@
         <table>
             <tr class="classTH">
                 <th>ID</th>
+                <th>NAME</th>
+                <th>GENDER</th>
                 <th>ITEM</th>
                 <th>QTY</th>
                 <th>PRICE</th>
@@ -30,7 +32,9 @@
             
             <tr>
                 <td><?= $row['id'] ?></td>
-                <td><?= $row['item_name'] ?></td>
+                <td><?= ucwords($row['user_info']) ?></td>
+                <td><?= ucwords($row['gender']) ?></td>
+                <td><?= ucwords($row['item_name']) ?></td>
                 <td><?= $row['quantity'] ?></td>
                 <td>₱ <?= $row['price'] ?></td>
                 <td>
