@@ -1,5 +1,5 @@
 # Main Page
-![image](https://github.com/user-attachments/assets/c7e29e01-5f9e-45f7-9066-eda75e1c8e77)
+![image](https://github.com/user-attachments/assets/bb4c1092-3ae3-418b-99b4-ec4b4928ba7e)
 
 # List
 ![image](https://github.com/user-attachments/assets/c2e08bc7-6398-4e28-b73c-cd7ac4257cde)
