@@ -16,8 +16,11 @@
     <div class="ui">
         <form action="add.php" method="post" enctype="multipart/form-data">
             <div class="main">
-                    <h2>NAME:</h2>
-                    <input type="text" name="user_info" placeholder="Ex. Dave" required>
+                    <h2>FULL NAME:</h2>
+                    <input type="text" name="user_info" placeholder="Ex. Dave Bangcoyo" required>
+
+                    <h2>AGE</h2>
+                    <input type="number" name="age" placeholder="Ex. 20" required>
 
                     <h2>GENDER:</h2>
                     <input type="radio" name="gender" id="male" value="male">
@@ -40,7 +43,7 @@
 
                     <div class="clickers">
                         <button type="submit">Add Item</button>
-                        <button class="tolist" type="button" onclick="window.location.href='list.php'">Item List</button>
+                        <button class="tolist" type="button" onclick="window.location.href='list.php'">View Details</button>
                     </div>
                     <div class="dev">
                         <a class="setting" href="https://www.facebook.com/jhinbangcoyo">Developer</a>
@@ -48,8 +51,6 @@
             </div>
         </form>
     </div>
-
-    <?php include 'inventory_table.php'; ?>
 
 </body>
 </html>
