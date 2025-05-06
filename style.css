@@ -41,6 +41,7 @@ input[type="radio"]{
 
 input[type="file"]{
     border: none;
+    padding-top: 0px;
 }
 
 input:focus{
