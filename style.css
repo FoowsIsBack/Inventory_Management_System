@@ -15,27 +15,23 @@ h2{
 .ui{
     background-color: rgba(255, 255, 255, 0.776);
     width: 30%;
+    max-height: max-content;
     padding: 1%;
     border-radius: 15px;
     box-shadow: 1px 4px 27px 4px rgba(0,0,0,0.69);
+    padding-top: 1px;
 }
 
 .clickers{
     padding-left: 50px;
 }
 
-.title{ 
-    padding-bottom: 5px;
-}
-
 input{
-    font-size: larger;
     outline: none;
     border: 1px solid black;
     border-radius: 5px;
     width: 95%;
     padding: 8px;
-    margin: 5px;
     font-size: larger;
 }
 
@@ -101,6 +97,17 @@ button[class="tolist"]:hover{
 
 .backers:hover{
     background-color: rgb(182, 15, 15);
+}
+
+.backers1{
+    background-color: rgb(75, 188, 75);
+    width: 200px;
+    padding: 5px;
+    color: white;
+}
+
+.backers1:hover{
+    background-color: rgb(51, 146, 51);
 }
 
 #back{
@@ -173,6 +180,15 @@ tr:hover{
 }
 
 .setting:hover{
+    text-decoration: underline;
+}
+
+.setting1{
+    text-decoration: none;
+    color: red;
+}
+
+.setting1:hover{
     text-decoration: underline;
 }
 
