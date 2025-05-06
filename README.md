@@ -14,7 +14,7 @@
 NOTE: The profile picture can't be changed yet because it is still under development.
 ```
 # Database
-![image](https://github.com/user-attachments/assets/c04e71ee-c1e5-483a-933a-f19a90994fd7)
+![image](https://github.com/user-attachments/assets/0f5a5d9c-0d74-4781-9f4b-3c5cc0842db6)
 
 # SQL Table
 ```sql
