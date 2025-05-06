@@ -10,7 +10,7 @@
 # Student Settings
 ![image](https://github.com/user-attachments/assets/f0a38495-ff60-4543-b87a-4098d03f25a8)
 
-# Student Edit
+# Student Update
 ![image](https://github.com/user-attachments/assets/154fe584-1342-4c20-982b-d53e97b9cbd2)
 
 ```sh
