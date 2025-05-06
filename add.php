@@ -3,6 +3,7 @@ include 'db.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $info = ucwords($_POST['user_info']);
+    $age = $_POST['age'];
     $gender = ucwords($_POST['gender']);
     $name = ucwords($_POST['item_name']);
     $qty = $_POST['quantity'];
@@ -18,8 +19,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
 
         if (move_uploaded_file($_FILES['profile_pic']['tmp_name'], $upload_path)) {
-            $conn->query("INSERT INTO inventory (user_info, profile_pic, gender, item_name, quantity, price) 
-                          VALUES ('$info', '$profile', '$gender', '$name', '$qty', '$price')");
+            $conn->query("INSERT INTO inventory (user_info, profile_pic, age, gender, item_name, quantity, price) 
+                          VALUES ('$info', '$profile', '$age', '$gender', '$name', '$qty', '$price')");
             header("Location: index.php");
             exit();
         } else {
