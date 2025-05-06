@@ -4,11 +4,12 @@
 # List
 ![image](https://github.com/user-attachments/assets/5695f10a-0337-4fce-8dca-0965dc0b3c80)
 
-#All Details
+# All Details
 ![image](https://github.com/user-attachments/assets/433df2cb-4230-46bc-a6b5-d450d11700ea)
 
-# Edit
-![image](https://github.com/user-attachments/assets/91180b36-9871-43e8-b4a7-447739752a97)
+# Student Settings
+![image](https://github.com/user-attachments/assets/f0a38495-ff60-4543-b87a-4098d03f25a8)
+
 ```sh
 NOTE: The profile picture can't be changed yet because it is still under development.
 ```
