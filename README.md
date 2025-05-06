@@ -2,7 +2,10 @@
 ![image](https://github.com/user-attachments/assets/bb4c1092-3ae3-418b-99b4-ec4b4928ba7e)
 
 # List
-![image](https://github.com/user-attachments/assets/c2e08bc7-6398-4e28-b73c-cd7ac4257cde)
+![image](https://github.com/user-attachments/assets/5695f10a-0337-4fce-8dca-0965dc0b3c80)
+
+#All Details
+![image](https://github.com/user-attachments/assets/433df2cb-4230-46bc-a6b5-d450d11700ea)
 
 # Edit
 ![image](https://github.com/user-attachments/assets/91180b36-9871-43e8-b4a7-447739752a97)
