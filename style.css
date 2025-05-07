@@ -2,6 +2,7 @@ body{
     font-family: Arial, sans-serif;
     background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
     justify-items: center;
+    margin: 0;
 }
 
 h1{
@@ -20,6 +21,42 @@ h2{
     border-radius: 15px;
     box-shadow: 1px 4px 27px 4px rgba(0,0,0,0.69);
     padding-top: 1px;
+}
+
+.title1{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    width: 99%;
+}
+
+.choice {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    border: 2px solid black;
+    width: 30%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 4px 27px 4px rgba(0,0,0,0.69);
+}
+
+.logo_dex{
+    width: 20%;
+    padding-top: 30%;
+    padding-left: 40%;
+    height: 20%;
+}
+
+.child{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    padding-left: 65px;
+    gap: 12%;
 }
 
 .clickers{
@@ -81,6 +118,14 @@ button[class="tolist"]{
 
 button[class="tolist"]:hover{
     background-color: rgb(51, 146, 51);
+}
+
+button[class="admin"]{
+    background-color: red;
+}
+
+button[class="admin"]:hover{
+    background-color: rgb(182, 15, 15);
 }
 
 .back{
