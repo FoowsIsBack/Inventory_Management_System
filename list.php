@@ -39,7 +39,7 @@
     </div>
 
     <div class="back">
-        <button class="backers" onclick="window.location.href='index.php'">Back</button>
+        <button class="backers" onclick="window.location.href='main.php'">Back</button>
         <button class="backers1" onclick="window.location.href='view_all_details.php'">All Details</button>
     </div>
 
