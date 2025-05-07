@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         if (move_uploaded_file($_FILES['profile_pic']['tmp_name'], $upload_path)) {
             $conn->query("INSERT INTO inventory (user_info, profile_pic, age, gender, item_name, quantity, price) 
                           VALUES ('$info', '$profile', '$age', '$gender', '$name', '$qty', '$price')");
-            header("Location: index.php");
+            header("Location: main.php");
             exit();
         } else {
             echo "Failed to upload image.";
