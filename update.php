@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="icon/icon.png" type="image/x-icon">
-    <title>Inventory Management System</title>
+    <title>Student Update</title>
 </head>
 <body>
     <div class="title">
-    <h1>INVENTORY MANAGEMENT SYSTEM</h1>
+    <h1>STUDENT UPDATE</h1>
     </div>
 
 <?php
@@ -18,12 +18,15 @@ include 'db.php';
 
 if (isset($_POST['update'])) {
     $id = $_POST['id'];
-    $name = $_POST['item_name'];
+    $info = ucwords($_POST['user_info']);
+    $age = $_POST['age'];
+    $gender = ucwords($_POST['gender']);
+    $name = ucwords($_POST['item_name']);
     $qty = $_POST['quantity'];
     $price = $_POST['price'];
 
-    $conn->query("UPDATE inventory SET item_name='$name', quantity='$qty', price='$price' WHERE id=$id");
-    header("Location: index.php");
+    $conn->query("UPDATE inventory SET user_info='$info', age='$age', gender='$gender', item_name='$name', quantity='$qty', price='$price' WHERE id=$id");
+    header("Location: main.php");
     exit;
 }
 
@@ -34,23 +37,31 @@ $item = $result->fetch_assoc();
 
     <div class="ui">
         <div class="main">
-            <form method="post">
+            <form method="post" enctype="multipart/form-data">
                 <input type="hidden" name="id" value="<?= $item['id'] ?>">
 
-                <div class="itemName">
-                    <h2>ITEM:</h2>
-                    <input type="text" name="item_name" value="<?= $item['item_name'] ?>" required>
-                </div>
-                
-                <div class="quantity">
-                    <h2>QUANTITY:</h2>
-                    <input type="text" name="quantity" value="<?= $item['quantity'] ?>" required>
-                </div>
+                <h2>NAME:</h2>
+                <input type="text" name="user_info" value="<?= $item['user_info'] ?>" required>
 
-                <div class="price">
-                    <h2>PRICE:</h2>
-                    <input type="text" name="price" value="<?= $item['price'] ?>" required>
-                </div>
+                <h2>AGE</h2>
+                <input type="text" name="age" value="<?= $item['age'] ?>" required>
+
+                <h2>GENDER:</h2>
+                <input type="radio" name="gender" id="male" value="male" <?= ($item['gender'] == 'male') ? 'checked' : ''; ?> required>
+                <label for="male">Male</label>
+                <br>
+                <input type="radio" name="gender" id="female" value="female" <?= ($item['gender'] == 'female') ? 'checked' : ''; ?> required>
+                <label for="female">Female</label>
+
+                <h2>ITEM:</h2>
+                <input type="text" name="item_name" value="<?= $item['item_name'] ?>" required>
+                
+                <h2>QUANTITY:</h2>
+                <input type="text" name="quantity" value="<?= $item['quantity'] ?>" required>
+
+                <h2>PRICE:</h2>
+                <input type="text" name="price" value="<?= $item['price'] ?>" required>
+
                 <div class="clickers">
                     <button class="tolist" type="submit" name="update">Update</button>
                     <button class="tolist" type="button" id="back" onclick="window.location.href='list.php'">Back</button>
