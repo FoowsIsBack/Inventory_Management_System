@@ -22,9 +22,7 @@
         <div class="child">
             <button class="tolist" type="button" onclick="window.location.href='main.php'">STUDENT</button>
             <p>OR</p>
-            <div class="child1">
-                <button class="admin" type="button" onclick="window.location.href='login.php'">TEACHER</button>
-            </div>
+            <button class="admin" type="button" onclick="window.location.href='login.php'">TEACHER</button>
         </div>
     </div>
     
