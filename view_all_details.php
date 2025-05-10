@@ -52,7 +52,7 @@
         </table>
     </div>
 
-    <div class="back">
+    <div class="back1">
         <button class="backers" onclick="window.location.href='list.php'">Back</button>
     </div>
 
