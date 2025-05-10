@@ -51,7 +51,6 @@ h2{
 }
 
 .child{
-    text-align: center;
     padding-top: 20px;
     padding-bottom: 10px;
     display: flex;
@@ -132,13 +131,32 @@ button[class="admin"]:hover{
     text-align: center;
     padding-top: 1%;
     font-size: larger;
+    display: flex;
+    width: 30%;
+    gap: 50%;
+}
+
+.back1{
+    padding-top: 20px;
+    position: absolute;
+    left: 9%;
+}
+
+.view_back{
+    background-color: red;
+    color: white;
+    position: absolute;
+    left: 13%;
+}
+
+.view_back:hover{
+    background-color: rgb(182, 15, 15);   
 }
 
 .backers{
     background-color: red;
-    width: 200px;
-    padding: 5px;
     color: white;
+    gap: 50%;
 }
 
 .backers:hover{
@@ -147,14 +165,24 @@ button[class="admin"]:hover{
 
 .backers1{
     background-color: rgb(75, 188, 75);
-    width: 200px;
-    padding: 5px;
     color: white;
+
 }
 
 .backers1:hover{
     background-color: rgb(51, 146, 51);
 }
+
+.backers2{
+    background-color: rgb(75, 188, 75);
+    padding: 5px;
+    color: white;
+}
+
+.backers2:hover{
+    background-color: rgb(51, 146, 51);
+}
+
 
 #back{
     background-color: red;
