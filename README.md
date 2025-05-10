@@ -8,7 +8,7 @@
 ![image](https://github.com/user-attachments/assets/ab2e19f0-287e-48aa-a896-6c27ed3be0ae)
 
 # Main Page
-![image](https://github.com/user-attachments/assets/4a9c48b8-1f82-4c09-abf5-62bbcd4f402e)
+![image](https://github.com/user-attachments/assets/6a59b2fa-acc6-4a02-9111-4196abf4ca53)
 
 # List
 ![image](https://github.com/user-attachments/assets/c955d415-7564-455a-97a2-0ee871721e96)
