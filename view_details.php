@@ -57,7 +57,7 @@
     </div>
 
     <div class="back">
-        <button class="backers" onclick="window.location.href='list.php'">Back</button>
+        <button class="view_back" onclick="window.location.href='list.php'">Back</button>
     </div>
 
 </body>
