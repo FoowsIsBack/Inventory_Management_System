@@ -47,7 +47,7 @@
                         <button class="tolist" type="button" onclick="window.location.href='list.php'">View Details</button>
                     </div>
                     <div class="dev">
-                        <a class="setting" href="https://www.facebook.com/jhinbangcoyo">Developer</a>
+                        <a class="setting" href="index.php">BACK?</a>
                     </div>
             </div>
         </form>
