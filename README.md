@@ -11,7 +11,7 @@
 ![image](https://github.com/user-attachments/assets/99819637-bef5-4ba0-8d10-6b2e27808fe4)
 
 # Student Settings
-![image](https://github.com/user-attachments/assets/f0a38495-ff60-4543-b87a-4098d03f25a8)
+![image](https://github.com/user-attachments/assets/3525c87d-92ce-465c-8f0b-2e67731e956f)
 
 # Student Update
 ![image](https://github.com/user-attachments/assets/154fe584-1342-4c20-982b-d53e97b9cbd2)
