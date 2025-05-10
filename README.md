@@ -5,10 +5,10 @@
 ![image](https://github.com/user-attachments/assets/4a9c48b8-1f82-4c09-abf5-62bbcd4f402e)
 
 # List
-![image](https://github.com/user-attachments/assets/5695f10a-0337-4fce-8dca-0965dc0b3c80)
+![image](https://github.com/user-attachments/assets/c955d415-7564-455a-97a2-0ee871721e96)
 
 # All Details
-![image](https://github.com/user-attachments/assets/433df2cb-4230-46bc-a6b5-d450d11700ea)
+![image](https://github.com/user-attachments/assets/99819637-bef5-4ba0-8d10-6b2e27808fe4)
 
 # Student Settings
 ![image](https://github.com/user-attachments/assets/f0a38495-ff60-4543-b87a-4098d03f25a8)
