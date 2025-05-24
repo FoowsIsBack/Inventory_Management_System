@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="../icon/login_icon.png" type="icon">
+    <link rel="shortcut icon" href="icon/person.png" type="image/png">
     <title>Login Account</title>
 </head>
 <body>
 
     <video autoplay muted loop>
-        <source src="../video/bg.mp4" type="video/mp4">
+        <source src="video/bg.mp4" type="video/mp4">
     </video>
 
     <div class="main">
         <div class="person">
-            <img src="../icon/logo.png" alt="person">
+            <img src="icon/person.png" alt="person">
         </div>
     
         <div class="ui">
@@ -41,7 +41,7 @@
     </div>
 
         <?php
-        $conn = mysqli_connect("localhost", "root", "", "bangcoyo");
+        $conn = mysqli_connect("localhost", "root", "", "qr_code");
 
         if (!$conn) {
             die("Connection failed: " . mysqli_connect_error());
@@ -61,7 +61,7 @@
 
             if (mysqli_num_rows($result) === 1) {
                 sleep(3);
-                header("Location: ../list.php");
+                header("Location: main.php");
                 exit;
             } else {
                 echo("<script>alert('Incorrect username or password!'); window.location.href='login.php';</script>");
