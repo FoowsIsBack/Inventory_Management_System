@@ -9,6 +9,92 @@ h1{
     text-align: center;
 }
 
+h2 {
+    text-align: left;
+}
+
+.ui{
+    background-color: rgba(255, 255, 255, 0.776);
+    width: 30%;
+    max-height: max-content;
+    padding: 1%;
+    border-radius: 15px;
+    box-shadow: 1px 4px 27px 4px rgba(0, 0, 0, 0.69);
+    padding-top: 1px;
+}
+
+input {
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 95%;
+    padding: 8px;
+    font-size: larger;
+}
+
+input[type="radio"] {
+    width: 5%;
+}
+
+input[type="file"] {
+    border: none;
+    padding-top: 0px;
+}
+
+input:focus {
+    border: 1px solid black;
+}
+
+.clickers {
+    padding-top: 3%;
+    display: flex;
+    gap: 30%;
+    padding-left: 50px;
+}
+
+button {
+    font-size: larger;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+button[type="submit"] {
+    background-color: rgb(0, 183, 255);
+}
+
+button:hover {
+    background-color: rgb(3, 133, 185);
+}
+
+button.tolist {
+    background-color: rgb(75, 188, 75);
+}
+
+button.tolist:hover {
+    background-color: rgb(51, 146, 51);
+}
+
+.dev {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.setting {
+    text-decoration: none;
+}
+
+.setting:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: blue;
+    margin: 0 5px;
+}
+
 h2{
     text-align: left;
 }
@@ -160,6 +246,33 @@ button[class="admin"]:hover{
     gap: 50%;
 }
 
+.back10{
+    padding-top: 20px;
+}
+
+.backers10{
+    background-color: red;
+    color: white;
+    position: absolute;
+    left: 20%;
+}
+
+.backers10:hover{
+    background-color: rgb(182, 15, 15);  
+}
+
+.dashboard{
+    background-color: rgb(75, 188, 75);
+    color: white;
+    position: absolute;
+    left: 950%;
+}
+
+.dashboard:hover{
+    background-color: rgb(51, 146, 51);
+}
+
+
 .backers:hover{
     background-color: rgb(182, 15, 15);
 }
@@ -167,7 +280,6 @@ button[class="admin"]:hover{
 .backers1{
     background-color: rgb(75, 188, 75);
     color: white;
-
 }
 
 .backers1:hover{
@@ -274,4 +386,51 @@ tr:hover{
 a{
     color: blue;
     margin: 0 5px;
+}
+
+.dashboard_info{
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 27px 4px rgba(0, 0, 0, 0.69);
+    width: 60%;
+    display: flex;
+    gap: 1%;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.box1{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 1px 4px 27px 4px rgba(0, 0, 0, 0.69);
+}
+
+.box2{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 1px 4px 27px 4px rgba(0, 0, 0, 0.69);
+}
+
+.box3{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 1px 4px 27px 4px rgba(0, 0, 0, 0.69);
+}
+
+.h22{
+    text-align: center;
+}
+
+.pp{
+    text-align: center;
+    font-size: larger;
 }
