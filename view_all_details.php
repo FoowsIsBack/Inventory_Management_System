@@ -43,7 +43,7 @@
                 <td>₱ <?= number_format($row['price'], 2) ?></td>
                 <td>
                     <a class="setting" href="update.php?id=<?= $row['id'] ?>">Edit</a> |
-                    <a class="setting" id="del" href="delete.php?id=<?= $row['id'] ?>" onclick="return confirm('Delete this item?')">Delete</a>
+                    <a class="setting" id="del" href="delete.php?id=<?= $row['id'] ?>" onclick="return confirm('Delete this student?')">Delete</a>
                 </td>
             </tr>
             <?php endwhile; ?>
