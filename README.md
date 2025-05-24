@@ -22,6 +22,9 @@
 # Student Update
 ![image](https://github.com/user-attachments/assets/154fe584-1342-4c20-982b-d53e97b9cbd2)
 
+# Dashboard
+![image](https://github.com/user-attachments/assets/e81e7116-5dc3-4334-94b6-416aea276a20)
+
 ```sh
 NOTE: The profile picture can't be changed yet because it is still under development.
 ```
